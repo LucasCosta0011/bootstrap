@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/path_style.css">
+    <title>Aula 02 - Bootstrap</title>
+  </head>
+  <body>
+    
+    <!--//NAV//-->  <!--fixed-top-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary bg-gradient">
+      <div class="container">
+
+        <a href="#" class="navbar-brand h1 mb-0">Curso</a>
+
+        <!--//data-bs-toggle//  //data-bs-target//-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSite">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSite">
+
+          <!--//me = Margin-Left-->
+          <ul class="navbar-nav me-auto">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Perfil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Servços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Depoimentos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contatos</a>
+            </li>
+
+          </ul>
+          
+          <!--//ms = Margin-Right-->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" id="navDrop">
+                Social
+              </a>
+
+              <div class="dropdown-menu">
+
+                <a class="dropdown-item" href="#">Facebook</a>
+                <a class="dropdown-item" href="#">Twitter</a>
+                <a class="dropdown-item" href="#">Instagram</a>
+
+              </div>
+
+            </li>
+          </ul>
+
+          <form class="row gy-2 gx-3 align-items-center">
+            
+            <div class="col-auto">
+              <label class="visually-hidden" for="autoSizingInputGroup">Username</label>
+              <div class="input-group">
+                
+                <input type="search" class="form-control ms-4 me-2" id="autoSizingInputGroup" placeholder="Buscar">
+                <button class="btn btn-light" type="submit">OK</button>
+                
+              </div>
+            </div>
+            
+          </form>
+          </div>
+
+      </div>
+
+    </nav>
+    <!--FIM-NAV-->
+
+    <!--//CAROUSEL//-->
+    <div id="carouselSite" class="carousel slide" data-bs-ride="carousel">
+      <!--//INDICADORES//-->
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselSite" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselSite" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselSite" data-bs-slide-to="2"></li>
+      </ol>
+      <!--//FIM-INDICADORES-->
+      <div class="carousel-inner">
+        
+        <div class="carousel-item active">
+          
+          <img src="https://picsum.photos/1024/720" alt="" class="img-fluid d-block">
+
+          <!--//CAPTION//(Legenda da foto, título)"-->
+          <div class="carousel-caption d-none d-md-block">
+            
+            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, est possimus.</p>
+          </div>
+          <!--FIM-CAPTION-->
+        
+        </div>
+
+        <div class="carousel-item">
+          
+          <img src="https://picsum.photos/1024/720" alt="" class="img-fluid d-block">
+
+          <!--//CAPTION//(Legenda da foto, título)"-->
+          <!--Estudar d*-->
+          <div class="carousel-caption d-none d-md-block">
+            
+            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, est possimus.</p>
+          </div>
+          <!--FIM-CAPTION-->
+        
+        </div>
+
+        <div class="carousel-item">
+          
+          <img src="https://picsum.photos/1024/720" alt="" class="img-fluid d-block">
+
+          <!--//CAPTION//(Legenda da foto, título)"-->
+          <div class="carousel-caption d-none d-md-block">
+            
+            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, est possimus.</p>
+          </div>
+          <!--FIM-CAPTION-->
+        
+        </div>
+      
+      </div>
+
+      <a href="#carouselSite" class="carousel-control-prev" role="button" data-bs-slide="prev">
+        
+        <span class="carousel-control-prev-icon"></span>
+        <!--<span class="sr-only">Anterior</span>-->
+      
+      </a>
+
+      <a href="#carouselSite" class="carousel-control-next" role="button" data-bs-slide="next">
+
+        <span class="carousel-control-next-icon"></span>
+        <!--<span class="sr-only">Próximo</span>-->
+
+      </a>
+    </div>
+    <!--//FIM-CAROUSEL//-->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+
+    <!-- Option 1: jquery -->
+	
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+   
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+   
+  </body>
+</html>
