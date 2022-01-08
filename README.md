@@ -12,4 +12,4 @@ function abstractLearned(){
   };
 };
 
-addEventListenner("what", noSense => abstractLearned);
+addEventListenner("what", noSense(call) => abstractLearned);
