@@ -1,15 +1,16 @@
 Em andamento.
 Curso de bootstrap 4 modificado para versão 5.
-function abstractLearned(){
-  let items;
-  items = {
-    navbar: "true",
-    carousel: "true",
-    scroll: "true",
-    cards: "true",
-    modal: "true",
-    unknow: "null",
-  };
-};
+var Learned new Learned(),
+   navbar,
+   carousel,
+   scrolls,
+   cards,
+   modal
 
-addEventListenner("what", noSense(call) => abstractLearned);
+Learned.navbar          = "true";
+Learned.carousel        = "true";
+Learned.scrolls         = "true";
+Learned.cards           = "true";
+Learned.modal           = "true";
+
+console.log(Learned);
