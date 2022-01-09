@@ -5,12 +5,15 @@ var Learned new Learned(),
    carousel,
    scrolls,
    cards,
-   modal
+   modal,
+   nav-pills
 
 Learned.navbar          = "true";
 Learned.carousel        = "true";
 Learned.scrolls         = "true";
 Learned.cards           = "true";
 Learned.modal           = "true";
+Learned.nav-pills           = "true";
+
 
 console.log(Learned);
