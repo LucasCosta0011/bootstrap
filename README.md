@@ -6,14 +6,18 @@ var Learned new Learned(),
    scrolls,
    cards,
    modal,
-   nav-pills
+   nav-pills,
+   form,
+   popover
 
 Learned.navbar          = "true";
 Learned.carousel        = "true";
 Learned.scrolls         = "true";
 Learned.cards           = "true";
 Learned.modal           = "true";
-Learned.nav-pills           = "true";
+Learned.nav-pills       = "true";
+Learned.form            = "true";
+Learned.popover         = "true";
 
 
 console.log(Learned);
