@@ -1,6 +1,6 @@
 Em andamento.
 Curso de bootstrap 4 modificado para versão 5.
-var Learned new Learned(),
+var Learned = new Learned(),
    navbar,
    carousel,
    scrollspy,
