@@ -1,0 +1,36 @@
+.scrollspySite {
+  position: relative;
+  overflow: auto;
+  height: 345px;
+}
+
+.icon {
+  padding: 7px 0px 0px 0px;
+}
+/*//JUMBOTRON//*/
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  /*border-radius: .3rem;*/
+}
+
+/*//COR DO LINK MOD*/
+.color-link-dark{
+  color: #212529;
+}
+.color-link-dark:hover{
+  color: #212529;
+}
+
+/*//FORM-ROW*/
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+/*# sourceMappingURL=path_style.css.map */
+
+

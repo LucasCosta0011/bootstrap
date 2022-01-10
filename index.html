@@ -7,7 +7,15 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/compiler/path_style.css">
+    <link rel="stylesheet" href="style/css/path_style.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+
+    <!--script font-awesome kit-->
+    <script src="https://kit.fontawesome.com/7613f810f4.js" crossorigin="anonymous"></script>
+
+    <!--//Popover src-->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
     <title>Aula 02 - Bootstrap</title>
   </head>
   <body>
@@ -162,7 +170,7 @@
 
         <div class="col-12 text-center my-5">
 
-          <h1 class="display-3">Lorem ipsum.</h1>
+          <h1 class="display-3"><i class="fas fa-cogs text-dark me-2"></i>Lorem ipsum.</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing oluptatum eligendi.</p>
 
         </div>
@@ -363,66 +371,6 @@
     </div>
     <!--//FIM-CARDS-->
 
-    <!--//MODAL-->
-    <!--FADE transição mais suave-->
-    <div class="modal fade" id="modalSite" tabindex="-1" role="dialog">
-
-      <!--modal-lg - modal-sm - tamanho do modal-->
-      <div class="modal-dialog" role="document">
-
-        <div class="modal-content">
-
-          <div class="modal-header">
-
-            <h5 class="modal-title">It is a long</h5>
-            <button type="button" class="close" data-bs-dismiss="modal">
-              <span>&times;</span>
-            </button>
-
-          </div>
-
-          <div class="modal-body">
-
-            <div class="container-fluid">
-
-              <div class="row">
-
-                <div class="col-6">
-
-                  <h5>Many desktop </h5>
-
-                  <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-
-                </div>
-
-                <div class="col-6">
-
-                  <h5>Many desktop </h5>
-                  
-                  <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="modal-footer">
-
-            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
-
-          </div>
-
-
-        </div>
-
-      </div>
-
-    </div>
-    <!--//FIM-MODAL-->
-
     <!--//JUMBOTRON-->
     <div class="jumbotron">
 
@@ -432,7 +380,7 @@
 
           <div class="col-12 text-center">
 
-            <h1 class="display-5">There are many</h1>
+            <h1 class="display-5"><i class="fab fa-youtube text-dark me-2"></i>There are many</h1>
             <p class="lead">Various versions have evolved over the years.</p>
             <hr>
 
@@ -555,11 +503,201 @@
     </div>
     <!--//FIM-NAV-PILLS-->
 
+    <!--//FORM-->
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-12 text-center my-5">
+
+          <h1 class="display-4"><i class="fas fa-file-alt me-2 text-dark"></i>It uses</h1>
+
+        </div>
+
+      </div>
+
+      <div class="row justify-content-center mb-5">
+
+        <div class="col-sm-12 col-md-10 col-lg-8">
+
+          <form action="">
+
+            <div class="row">
+
+              <div class="form-group col-sm-6">
+
+                <label for="inputNome">Seu nome</label>
+                <input type="text" class="form-control" id="inputNome" placeholder="Nome">
+
+              </div>
+
+              <div class="form-group col-sm-6">
+
+                <label for="inputSobrenome">Seu sobrenome</label>
+                <input type="text" class="form-control" id="inputSobrenome" placeholder="Sobrenome">
+
+              </div>
+
+            </div>
+
+            <div class="row">
+
+              <div class="form-group col-sm-12">
+
+                <label for="inputEnd">Seu endereço</label>
+                <input type="text" class="form-control" id="inputEnd" placeholder="Endereço">
+
+              </div>
+
+            </div>
+
+            <div class="row">
+
+              <div class="form-group col-sm-6">
+
+                <label for="inputCidade">Sua cidade</label>
+                <input type="text" class="form-control" id="inputCidade" placeholder="Cidade">
+
+              </div>
+
+              <div class="form-group col-sm-4">
+
+                <label for="inputEst">Seu estado</label>
+                <select name="inputEst" class="form-control" id="inputEst">
+
+                  <option selected>Escolha...</option>
+                  <option value="0">...</option>
+                  <option value="1">...</option>
+                  <option value="2">...</option>
+
+
+                </select>
+
+              </div>
+
+              <div class="form-group col-sm-2">
+
+                <label for="inputCEP">Seu CEP</label>
+                <input type="text" class="form-control" id="inputCEP" placeholder="CEP">
+
+              </div>
+
+            </div>
+
+            <div class="row">
+
+              <div class="form-group col-sm-12">
+
+                <div class="form-check">
+
+                  <label for="inputCheck" class="form-check-label">
+
+                    <input type="checkbox" class="form-check-input">
+                    Desejo receber novidades por e-mail.
+
+                  </label>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="row">
+
+              <div class="col-sm-12">
+
+                <button type="submit" class="btn btn-dark">Enviar</button>
+
+                <a tabindex="0" class="btn btn-secondary" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Dismissible popover" data-bs-content="And here's some amazing content. It's very engaging. Right?">Ajuda</a>
+
+              </div>
+
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!--FIM-FORM-->
+
+    <!--//MODAL-->
+    <!--FADE transição mais suave-->
+    <div class="modal fade" id="modalSite" tabindex="-1" role="dialog">
+
+      <!--modal-lg - modal-sm - tamanho do modal-->
+      <div class="modal-dialog" role="document">
+
+        <div class="modal-content">
+
+          <div class="modal-header">
+
+            <h5 class="modal-title">It is a long</h5>
+            <button type="button" class="close" data-bs-dismiss="modal">
+              <span>&times;</span>
+            </button>
+
+          </div>
+
+          <div class="modal-body">
+
+            <div class="container-fluid">
+
+              <div class="row">
+
+                <div class="col-6">
+
+                  <h5>Many desktop </h5>
+
+                  <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+
+                </div>
+
+                <div class="col-6">
+
+                  <h5>Many desktop </h5>
+                  
+                  <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="modal-footer">
+
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+    <!--//FIM-MODAL-->
      
   
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- JavaScript Popover! -->
 
+    <script>
+
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+      })
+      
+    </script>
 
     <!-- Option 1: jquery -->
 	
@@ -569,6 +707,12 @@
    
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+
+
+
+  
+
    
   </body>
 </html>
