@@ -3,21 +3,28 @@ Curso de bootstrap 4 modificado para versão 5.
 var Learned new Learned(),
    navbar,
    carousel,
-   scrolls,
+   scrollspy,
    cards,
    modal,
    nav-pills,
+   font-awesome,
    form,
-   popover
+   popover,
+   list-group,
+   blockquote
 
 Learned.navbar          = "true";
 Learned.carousel        = "true";
-Learned.scrolls         = "true";
+Learned.scrollspy         = "true";
 Learned.cards           = "true";
 Learned.modal           = "true";
 Learned.nav-pills       = "true";
+Learned.font-awesome    = "true";
 Learned.form            = "true";
 Learned.popover         = "true";
+Learned.list-group      = "true";
+Learned.blockquote      = "true";
+
 
 
 console.log(Learned);
