@@ -22,6 +22,13 @@
 .color-link-dark:hover{
   color: #212529;
 }
+.containermod{
+  
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    margin: 0 auto;
+}
 
 
 /*# sourceMappingURL=path_style.css.map */
