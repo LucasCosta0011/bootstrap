@@ -13,10 +13,7 @@
     <!--script font-awesome kit-->
     <script src="https://kit.fontawesome.com/7613f810f4.js" crossorigin="anonymous"></script>
 
-    <!--//Popover src-->
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-
-    <title>Aula 02 - Bootstrap</title>
+    <title>Bootstrap 5</title>
   </head>
   <body>
     
@@ -33,65 +30,65 @@
 
         <div class="collapse navbar-collapse" id="navbarSite">
 
-          <!--ME = Margin-Right-->
-          <ul class="navbar-nav me-auto">
+            <!--ME = Margin-Right-->
+            <ul class="navbar-nav me-auto">
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">Início</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Perfil</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Servços</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Depoimentos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contatos</a>
-            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Perfil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Depoimentos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contatos</a>
+              </li>
 
-          </ul>
-          
-          <!--MS = Margin-Left-->
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" id="navDrop">
-                Social
-              </a>
-
-              <div class="dropdown-menu">
-
-                <a class="dropdown-item" href="#">Facebook</a>
-                <a class="dropdown-item" href="#">Twitter</a>
-                <a class="dropdown-item" href="#">Instagram</a>
-
-              </div>
-
-            </li>
-          </ul>
-
-          <form class="row gy-2 gx-3 align-items-center">
+            </ul>
             
-            <div class="col-auto">
-              <label class="visually-hidden" for="autoSizingInputGroup">Username</label>
-              <div class="input-group">
-                
-                <input type="search" class="form-control ms-4 me-2" id="autoSizingInputGroup" placeholder="Buscar">
-                <button class="btn btn-light" type="submit">OK</button>
-                
-              </div>
-            </div>
-            
-          </form>
-          </div>
+            <!--MS = Margin-Left-->
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" id="navDrop">
+                  Social
+                </a>
 
-        </div>
+                <div class="dropdown-menu">
+
+                  <a class="dropdown-item" href="#">Facebook</a>
+                  <a class="dropdown-item" href="#">Twitter</a>
+                  <a class="dropdown-item" href="#">Instagram</a>
+
+                </div>
+
+              </li>
+            </ul>
+
+            <form class="row gy-2 gx-3 align-items-center">
+              
+              <div class="col-auto">
+                
+                <label class="visually-hidden" for="autoSizingInputGroup">Username</label>
+                <div class="input-group">
+                  
+                  <input type="search" class="form-control ms-4 me-2" id="autoSizingInputGroup" placeholder="Buscar">
+                  <button class="btn btn-light" type="submit">OK</button>
+                  
+                </div>
+            </form>
+        </div>  
+
+      </div>
     </nav>
     <!--//FIM-NAV-->
 
     <!--//CAROUSEL-->
+    <div class="container mt-5">
     <div id="carouselSite" class="carousel slide" data-bs-ride="carousel">
       <!--//INDICADORES-->
       <ol class="carousel-indicators">
@@ -100,67 +97,70 @@
         <li data-bs-target="#carouselSite" data-bs-slide-to="2"></li>
       </ol>
       <!--//FIM-INDICADORES-->
-      <div class="carousel-inner">
-        
-        <div class="carousel-item active">
-          
-          <img src="images/img1.jpg" alt="" class="img-fluid d-block">
-
-          <!--//CAPTION - Legenda da foto, título"-->
-          <div class="carousel-caption d-none d-md-block text-dark">
-            
-            <h1>Lorem ipsum dolor sit.</h1>
-            <p class="lead text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-          <!--//FIM-CAPTION-->
-        
-        </div>
-
-        <div class="carousel-item">
-          
-          <img src="images/img2.jpg" alt="" class="img-fluid d-block">
-
-          <!--//CAPTION-->
-          <!--Estudar d*-->
-          <div class="carousel-caption d-none d-md-block text-dark">
-            
-            <h1>Lorem ipsum dolor sit.</h1>
-            <p class="lead text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-          <!--//FIM-CAPTION-->
-        
-        </div>
-
-        <div class="carousel-item">
-          
-          <img src="images/img3.jpg" alt="" class="img-fluid d-block">
-
-          <!--//CAPTION"-->
-          <div class="carousel-caption d-none d-md-block text-dark">
-            
-            <h1 class="text-light">Lorem ipsum dolor sit.</h1>
-            <p class="lead text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-          <!--//FIM-CAPTION-->
-        
-        </div>
       
+        <div class="carousel-inner">
+          
+          <div class="carousel-item active">
+            
+            <img src="images/img1.jpg" alt="" class="img-fluid d-block">
+
+            <!--//CAPTION - Legenda da foto, título"-->
+            <div class="carousel-caption d-none d-md-block text-dark">
+              
+              <h1>Lorem ipsum dolor sit.</h1>
+              <p class="lead text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <!--//FIM-CAPTION-->
+          
+          </div>
+
+          <div class="carousel-item">
+            
+            <img src="images/img2.jpg" alt="" class="img-fluid d-block">
+
+            <!--//CAPTION-->
+            <!--Estudar d*-->
+            <div class="carousel-caption d-none d-md-block text-dark">
+              
+              <h1>Lorem ipsum dolor sit.</h1>
+              <p class="lead text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <!--//FIM-CAPTION-->
+          
+          </div>
+
+          <div class="carousel-item">
+            
+            <img src="images/img3.jpg" alt="" class="img-fluid d-block">
+
+            <!--//CAPTION"-->
+            <div class="carousel-caption d-none d-md-block text-dark">
+              
+              <h1 class="text-light">Lorem ipsum dolor sit.</h1>
+              <p class="lead text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <!--//FIM-CAPTION-->
+          
+          </div>
+        
+        </div>
+
+        <a href="#carouselSite" class="carousel-control-prev" role="button" data-bs-slide="prev">
+          
+          <span class="carousel-control-prev-icon"></span>
+          <!--<span class="sr-only">Anterior</span>-->
+        
+        </a>
+
+        <a href="#carouselSite" class="carousel-control-next" role="button" data-bs-slide="next">
+
+          <span class="carousel-control-next-icon"></span>
+          <!--<span class="sr-only">Próximo</span>-->
+
+        </a>
       </div>
-
-      <a href="#carouselSite" class="carousel-control-prev" role="button" data-bs-slide="prev">
-        
-        <span class="carousel-control-prev-icon"></span>
-        <!--<span class="sr-only">Anterior</span>-->
-      
-      </a>
-
-      <a href="#carouselSite" class="carousel-control-next" role="button" data-bs-slide="next">
-
-        <span class="carousel-control-next-icon"></span>
-        <!--<span class="sr-only">Próximo</span>-->
-
-      </a>
     </div>
+    
     <!--//FIM-CAROUSEL-->
 
     <!--//SCROLL-SPY-->
@@ -522,7 +522,7 @@
 
           <form action="">
 
-            <div class="row">
+            <div class="row my-3">
 
               <div class="form-group col-sm-6">
 
@@ -540,7 +540,7 @@
 
             </div>
 
-            <div class="row">
+            <div class="row my-3">
 
               <div class="form-group col-sm-12">
 
@@ -551,7 +551,7 @@
 
             </div>
 
-            <div class="row">
+            <div class="row my-3">
 
               <div class="form-group col-sm-6">
 
@@ -584,7 +584,7 @@
 
             </div>
 
-            <div class="row">
+            <div class="row my-3">
 
               <div class="form-group col-sm-12">
 
@@ -603,7 +603,7 @@
 
             </div>
 
-            <div class="row">
+            <div class="row my-3">
 
               <div class="col-sm-12">
 
@@ -740,7 +740,16 @@
     </div>
     <!--//FIM-MODAL-->
      
-  
+
+    <!-- Option 1: jquery -->
+	
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+   
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
     <!-- JavaScript Popover! -->
 
@@ -752,15 +761,6 @@
       })
       
     </script>
-
-    <!-- Option 1: jquery -->
-	
-    <script src="node_modules/jquery/dist/jquery.js"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-   
-    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 
 
 
