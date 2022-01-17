@@ -1,5 +1,10 @@
 Link do site: http://sdnxfx0011.infinityfreeapp.com/CursoBoostrap4/
 Curso de bootstrap 4 modificado para versão 5.
+
+
+
+
+
 var Learned = new Learned(),
    navbar,
    carousel,
