@@ -6,7 +6,7 @@ var path = require('path');
 
 app.get('/', function (req, res) {
 
-	res.sendFile(__dirname + "/index.html")
+	res.render('body')
 })
 
 app.listen(PORTA, function(){
