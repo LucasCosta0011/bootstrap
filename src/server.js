@@ -5,7 +5,8 @@ const PORTA = process.env.PORT || 3000
 var path = require('path');
 
 app.get('/', function (req, res) {
-	res.sendFile('C://Users/sdnxf/Desktop/BOOTSTRAP CURSO/bootstrap/src/index.html')
+
+	res.sendFile(__dirname + "/index.html")
 })
 
 app.listen(PORTA, function(){
