@@ -1,6 +1,6 @@
 <h1 style="display: inline-block;" align="center">Curso de Bootstrap 5</h1>  
 <p align="center">
-<img src="https://img.shields.io/github/license/{lucascosta0011}/{bootstrap}.svg">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge">
 </p>
    
   
