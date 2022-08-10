@@ -19,5 +19,5 @@
 ### Como criar List Group, Button Group e Blockquote. ✔️
 
 <p align="center">
-<img src="https://img.shields.io/badge/Dúvidas%20?-lucascostadeveloper@gmail.com-1abc9c.svg">
+<img src="https://img.shields.io/badge/Dúvidas%20?-Envie uma mensagem por email-1abc9c.svg">
 </p>
