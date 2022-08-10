@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/website-up-down-green-red/http/monip.org.svg">
-<a href="https://curso-bootstrap-5.herokuapp.com/">Veja o resultado!</a>
+<img src="https://img.shields.io/website-up-down-green-red/http/monip.org.svg"></br>
+<a target="_blank" href="https://curso-bootstrap-5.herokuapp.com/">Veja o resultado!</a>
 </p>
  
 ##
